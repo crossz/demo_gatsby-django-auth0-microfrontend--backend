@@ -1,5 +1,10 @@
 # Hello World API: Django + Python Sample
 
+> # Run:
+> 1. `gunicorn`
+> 2. `python manage.py runserver 0.0.0.0:6060`
+
+
 You can use this sample project to learn how to secure a simple Django API server using Auth0.
 
 The `starter` branch offers a working API server that exposes three public endpoints. Each endpoint returns a different type of message: public, protected, and admin.
